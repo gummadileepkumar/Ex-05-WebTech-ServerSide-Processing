@@ -136,9 +136,10 @@ def rectarea(request):
     return render(request,'myapp/math.html',context)
     ```
 
-## OUTPUT:
-![side_proccessing_output1](https://user-images.githubusercontent.com/118707761/213964417-30a327f7-c97b-4f5c-ac05-0316c36f99f8.jpg)
+##OUTPUT:
 
+
+![Side1_output](https://user-images.githubusercontent.com/118707761/213965424-64c22ffd-29d7-4ca3-ba2b-612ff35a0954.jpg)
 
 
 ## RESULT:
