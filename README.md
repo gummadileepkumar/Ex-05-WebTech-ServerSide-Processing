@@ -141,6 +141,7 @@ def rectarea(request):
 
 
 
+![admin_page](https://user-images.githubusercontent.com/118707761/213969873-3c0dbb74-526d-42bf-8a57-2c7d7dfcf72f.png)
 
 
 
