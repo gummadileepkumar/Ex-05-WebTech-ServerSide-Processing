@@ -34,9 +34,8 @@ Publish the website in the given URL.
 
 # PROGRAM:
 ## Math.html
-```html
-
-
+```
+html
 
 <html>
 <head>
@@ -103,7 +102,9 @@ Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup
 </html>
 ```
 ## urls
-```html
+
+```
+html
 from django.contrib import admin
 from django.urls import path
 from myapp import views
@@ -112,9 +113,10 @@ urlpatterns = [
     path('areaofrectangle/',views.rectarea,name="areaofrectangle"),
     path('',views.rectarea,name="areaofrectangleroot")
    ]
-   ```
+```
 ## views
-```html
+```
+html
 from django.shortcuts import render
 def rectarea(request):
     context={}
@@ -134,17 +136,12 @@ def rectarea(request):
         context['b'] = b
         print('Area=',area)
     return render(request,'myapp/math.html',context)
-    ```
+  ```
+
 
 ## OUTPUT:
 
-
-
-
-![admin_page](https://user-images.githubusercontent.com/118707761/213969873-3c0dbb74-526d-42bf-8a57-2c7d7dfcf72f.png)
-
-
-
+![out0](https://user-images.githubusercontent.com/118707761/214203227-e42c9c16-a444-40d1-8617-f1f9ee155733.png)
 
 
 ## RESULT:
